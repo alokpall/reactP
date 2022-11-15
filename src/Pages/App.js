@@ -8,6 +8,9 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Page6 from './Page6';
 import Pages6 from './Pages6';
 import Pages7 from './Pages7';
+// import New from '../component8/New';
+import Newpage from './Newpage';
+// import New from '../component8/New';
 const App = () => {
   return (
     <>
@@ -20,6 +23,7 @@ const App = () => {
     <Route path="/vegetable" element={<Page6/>}/>
     <Route path="/login" element={<Pages6/>} />
     <Route path="/register" element={<Pages7/>}/>
+    <Route path="/new" element={<Newpage/>}/>
    </Routes>
    </BrowserRouter>
     </>

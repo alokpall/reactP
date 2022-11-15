@@ -9,6 +9,7 @@ import Navbar2 from '../Component/Nvabar/Navbar2'
 import Product from '../Component/Products/Product'
 import Shipping from '../Component/Shipping/Shipping'
 import Slide from '../Component/Slider/Slide'
+import New from '../component8/New'
 const Home = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home = () => {
     <Navbar/>
     <Slide/>
     <Shipping/>
+    <New/>
     <Category/>
     <Product/>
     <Day/>
